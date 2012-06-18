@@ -3,7 +3,7 @@
 #ifdef PLATFORM_BEOS
 
 #include "EMBeAudioOutputNode.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 //#include "EMMediaEngine.h"
 

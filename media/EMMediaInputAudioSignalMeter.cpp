@@ -2,7 +2,7 @@
 
 #include "EMMediaTimer.h"
 #include "EMSemaphore.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 //#include "EMMediaUtility.h"
 #include "EMMediaFormat.h"

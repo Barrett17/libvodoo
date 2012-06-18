@@ -13,7 +13,7 @@
 //#include "EMProjectDataSaver.h"
 #include "EMRealtimeInputDescriptor.h"
 #include "EMRealtimeMIDIInputDescriptor.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 
 #ifdef PLATFORM_BEOS

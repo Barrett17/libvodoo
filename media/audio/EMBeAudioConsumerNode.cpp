@@ -9,7 +9,7 @@
 #include "EMMediaDataBuffer.h"
 #include "EMWaveFileWriter.h"
 #include "EMBufferDestination.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 //#include "EMMediaEngine.h"
 

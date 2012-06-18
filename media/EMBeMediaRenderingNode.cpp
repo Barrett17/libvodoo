@@ -9,7 +9,7 @@
 #include "EMMediaTimer.h"
 //#include "EMMediaEngine.h"
 #include "EMMediaProject.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 #include "EMVideoBitmapScaler.h"
 //#include "DirectoryIDs.h"

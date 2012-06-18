@@ -1,10 +1,10 @@
 #include "EMMediaFormat.h"
 #include "EMMediaGlobals.h"
 #include "EMGlobals.h"
-#include "EMGUIGlobals.h"
+//#include "EMGUIGlobals.h"
 #include "EMBeMediaUtility.h"
 //#include "EMSettingsRepository.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMMediaEngine.h"
 
 EMMediaFormat::EMMediaFormat(EMMediaType p_eType)

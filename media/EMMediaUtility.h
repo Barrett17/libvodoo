@@ -42,6 +42,7 @@ public:
 protected:
 	EMMediaUtility();
 	~EMMediaUtility();
+
 	static EMMediaUtility* m_opInstance;
 };
 

@@ -9,7 +9,7 @@
 //#include "CommandIDs.h"
 //#include "DirectoryIDs.h"
 //#include "EMMediaEngine.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 
 #include <iostream>
 #include <MediaKit.h>

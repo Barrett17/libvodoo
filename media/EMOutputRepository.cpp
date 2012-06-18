@@ -15,7 +15,7 @@
 /*#include "EMProjectDataLoader.h"
 #include "EMProjectDataSaver.h"*/
 #include "EMRealtimeMIDIOutputDescriptor.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMSettingsRepository.h"
 
 EMOutputRepository* EMOutputRepository::m_opInstance = NULL;

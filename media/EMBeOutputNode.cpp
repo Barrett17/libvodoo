@@ -16,7 +16,7 @@
 #include "EMBeMediaUtility.h"
 #include "EMMediaTimer.h"
 //#include "EMSettingsRepository.h"
-#include "EMSettingIDs.h"
+//#include "EMSettingIDs.h"
 //#include "EMMediaProject.h"
 
 EMBeOutputNode::EMBeOutputNode(media_type p_vType)

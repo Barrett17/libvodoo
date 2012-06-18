@@ -3,17 +3,11 @@
 #include "EMMediaIDManager.h"
 #include "EMBeMediaFile.h"
 #include "EMMediaGlobals.h"
-//#include "EMWinMediaFile.h"
 
 EMMediaFile* EMMediaFile::Create(const string* p_opName)
 {
 	EMMediaFile* opNewObject = NULL;
-#ifdef PLATFORM_BEOS
 	opNewObject = EM_new EMBeMediaFile(p_opName);
-#endif
-#ifdef PLATFORM_WINDOWS
-	opNewObject = EM_new EMBeMediaFile(p_opName);
-#endif
 	return opNewObject;
 }
 
