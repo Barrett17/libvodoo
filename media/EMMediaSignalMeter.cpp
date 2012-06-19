@@ -8,7 +8,7 @@
 //#include "EMMediaEngine.h"
 //#include "EMSettingsRepository.h"
 #include "EMMediaTimer.h"
-#include "EMMessages.h"
+//#include "EMMessages.h"
 
 EMMediaSignalMeter* EMMediaSignalMeter::CreateEMSignalMeter(EMMediaType p_eType, bool m_vIsInputMeter)
 {
@@ -64,7 +64,7 @@ bool EMMediaSignalMeter::MessageReceived(EMListenerRepository* p_opSender, uint3
 {
 	switch(p_vMessage)
 	{
-		case EM_SETTING_UPDATED:
+	/*	case EM_SETTING_UPDATED:
 		{
 			//m_vSignalMetersActive = *(static_cast<bool*>(EMMediaEngine::Instance() -> GetSettingsRepository() -> GetSetting(SETTING_SIGNAL_METERS_ENABLED)));
 			break;
@@ -78,7 +78,7 @@ bool EMMediaSignalMeter::MessageReceived(EMListenerRepository* p_opSender, uint3
 		case EM_MESSAGE_STOP_PLAYORRECORD:
 			OnStop();
 			break;
-
+*/
 		default:
 			return false;
 	};

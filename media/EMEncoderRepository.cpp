@@ -6,7 +6,7 @@
 //#include "EMApplication.h" //For being able to listen for quit-messages!
 #include "EMListenerRepository.h"
 #include "EMMediaSystemInspector.h"
-#include "EMMessages.h"
+//#include "EMMessages.h"
 
 EMEncoderRepository* EMEncoderRepository::m_opInstance = NULL;
 
@@ -99,7 +99,8 @@ bool EMEncoderRepository::MessageReceived(EMListenerRepository* p_opSender, uint
 {
 	switch(p_vMessage)
 	{
-		case EM_QUIT_PHASE_ONE:
+	// NOTA questi stavano dentro EMMessages.h
+	/*	case EM_QUIT_PHASE_ONE:
 			return false;
 		case EM_QUIT_PHASE_TWO:
 			break;
@@ -114,7 +115,7 @@ bool EMEncoderRepository::MessageReceived(EMListenerRepository* p_opSender, uint
 		case EM_QUIT_ABORTED:
 			break;
 		default:
-			break;
+			break;*/
 	};
 	return false;
 }

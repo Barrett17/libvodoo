@@ -8,7 +8,7 @@
 #include "EMMediaProject.h"
 #include "EMMediaSystemInspector.h"
 #include "EMMediaTimer.h"
-#include "EMMessages.h"
+//#include "EMMessages.h"
 //#include "EMProjectDataLoader.h"
 //#include "EMProjectDataSaver.h"
 #include "EMRealtimeInputDescriptor.h"
@@ -371,7 +371,7 @@ bool EMInputRepository::MessageReceived(EMListenerRepository* p_opSender, uint32
 {
 	switch(p_vMessage)
 	{
-		case EM_MESSAGE_AUDIO_TRACK_ACTIVATED:
+	/*	case EM_MESSAGE_AUDIO_TRACK_ACTIVATED:
 			break;
 		case EM_MESSAGE_VIDEO_TRACK_ACTIVATED:
 			break;
@@ -407,7 +407,7 @@ bool EMInputRepository::MessageReceived(EMListenerRepository* p_opSender, uint32
 		case EM_QUIT_PHASE_SIX:
 			break;
 		case EM_QUIT_ABORTED:
-			break;
+			break;*/
 		default:
 			break;
 	};

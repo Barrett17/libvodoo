@@ -2,7 +2,7 @@
 
 //#include "EMApplication.h" //For being able to listen for quit-messages!
 #include "EMListenerRepository.h"
-#include "EMMessages.h"
+//#include "EMMessages.h"
 #include "EMPlugin.h"
 
 EMPluginRepository* EMPluginRepository::m_opInstance = NULL;
@@ -64,7 +64,7 @@ bool EMPluginRepository::MessageReceived(EMListenerRepository* p_opSender, uint3
 {
 	switch(p_vMessage)
 	{
-		case EM_QUIT_PHASE_ONE:
+	/*	case EM_QUIT_PHASE_ONE:
 			return false;
 		case EM_QUIT_PHASE_TWO:
 			break;
@@ -77,7 +77,7 @@ bool EMPluginRepository::MessageReceived(EMListenerRepository* p_opSender, uint3
 		case EM_QUIT_PHASE_SIX:
 			break;
 		case EM_QUIT_ABORTED:
-			break;
+			break;*/
 		default:
 			break;
 	};
